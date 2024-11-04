@@ -1,0 +1,5 @@
+Title,Run,Case Status,Assignee,Bug/Root Cause
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/178710523">LinkExternalAccountv2 - DeclinedFromFraudNameMismatch</a>,GSS_ExternalAccountManagement Service,Passed,David Li,
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/178710571">UpdateCase_GT 6 Approved Depositors</a>,GSS_Fraud Service,Passed,None,
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/178710747">GetDeliveryDate-ACH Pull-Default Date</a>,GSS_ACHTransfer Service,Passed,Merry Zhong,
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/178710813">GenerateClaimcode HappyPath - AccountClosureFlow</a>,GSS_FundingHub Service,Passed,Merry Zhong,

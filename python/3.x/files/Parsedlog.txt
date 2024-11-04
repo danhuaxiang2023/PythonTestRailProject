@@ -1,0 +1,14 @@
+2024-09-05 03:02:22 WARN [com.greendotcorp.listeners.testCaseListener] Preparing to run test case [MMF - ACI Live Mode] suite [User Journey_MMF].
+03:02:22,739 INFO  [SoapUIProTestCaseRunner] Running TestCase [MMF - ACI Live Mode]
+03:02:38,865 INFO  [SoapUIProTestCaseRunner] running step [Run TestCase - Process MMF]
+03:04:29,362 INFO  [SoapUIProTestCaseRunner] running step [Check MonthlyFeeEvaluation_Staging]
+03:04:29,426 INFO  [SoapUIProTestCaseRunner] running step [Check MonthlyFeeEvaluationResult_Staging]
+03:04:29,493 INFO  [SoapUIProTestCaseRunner] running step [Check MonthlyFeeEvaluation]
+03:04:29,652 INFO  [SoapUIProTestCaseRunner] running step [Check MonthlyFeeEvaluationResult]
+03:04:29,988 INFO  [SoapUIProTestCaseRunner] running step [Run TestCase - Trigger IXGOFileForAcctHistoryJob]
+03:08:11,900 INFO  [log] Running step [Update ProcessorMessage Records] from step [wait]
+03:08:22,908 INFO  [SoapUIProTestCaseRunner] running step [GetACIBalance-After]
+03:08:23,374 INFO  [SoapUIProTestCaseRunner] running step [Check PurseBalance]
+2024-09-05 03:08:23 WARN [com.greendotcorp.listeners.testCaseListener] Finished running test case [MMF - ACI Live Mode] with status [PASS].
+03:08:24,874 ERROR [errorlog] Error in assertion script of the [Check PurseBalance] test step
+03:08:24,876 INFO  [SoapUIProTestCaseRunner] Finished running TestCase [MMF - ACI Live Mode], time taken: 360551ms, status: PASS

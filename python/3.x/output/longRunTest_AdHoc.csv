@@ -1,0 +1,57 @@
+TestId,Title,Elapsed,Milestone,Plan,Run,Section,Status,Tested On
+178736294,Reissue EMV card,15m 23s,Milestone 165,BaaS - AdHoc - Milestone 165,BaaS_UtilityCore Service,,Automated Fail,8/27/2024 13:18
+178773797,TC01-EStatementRegenerate HappyPath,6w 5h 16s,Milestone 165,BaaS - AdHoc - Milestone 165,BaaS_EstatmentProcessor Service,,Automated Fail,8/27/2024 18:02
+TestId,Title,Elapsed,Milestone,Plan,Run,Section,Status,Tested On
+178957561,GetExternalTransferByRefNum - TopUp - VisaDebit - AFT - HappyPath - FPAN,6m 2s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 8/30 - TestRail,BaaS_IFT Service,,Automated Pass,8/30/2024 18:04
+178957562,Transfer P2PExpress - VisaDebit - AFT - HappyPath - FPAN,5m 59s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 8/30 - TestRail,BaaS_IFT Service,,Automated Pass,8/30/2024 17:58
+178957560,Transfer - AFT - DifferentTransactionAmount,11m 19s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 8/30 - TestRail,BaaS_IFT Service,,Automated Pass,8/30/2024 17:52
+178957559,Transfer TopUp - VisaDebit - AFT - HappyPath - FPAN,5m 41s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 8/30 - TestRail,BaaS_IFT Service,,Automated Pass,8/30/2024 17:41
+178957600,Int1099Form - Offline Generate - GetDocument,6m 40s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 8/30 - TestRail,BaaS_EstatmentProcessor Service,,Automated Fail,8/30/2024 18:02
+178957652,NoODTierAssigned-first mailed card activation date is NOT present,7m 42s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 8/30 - TestRail,BaaS_OverdraftEligibilityProcessor Service,,Automated Pass,8/30/2024 18:32
+178957651,OD1TierAssigned-first mailed card activation date is  present,7m 20s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 8/30 - TestRail,BaaS_OverdraftEligibilityProcessor Service,,Automated Pass,8/30/2024 18:24
+178957649,NoODTierAssigned-Personal Card Not Activated,7m 12s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 8/30 - TestRail,BaaS_OverdraftEligibilityProcessor Service,,Automated Pass,8/30/2024 18:16
+178957667,AccountBalance - ODTierNotSuspended - AccountBalance - LegderBalancePositive,7m 10s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 8/30 - TestRail,BaaS_OverdraftEligibilityProcessor Service,,Automated Pass,8/30/2024 18:02
+178958006,Enable Strike3 FraudBatchProcessor with wmmc for common rules,6m 20s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 8/30 - TestRail,BaaS_Fraud Service,,Automated Fail,9/2/2024 14:34
+178958006,Enable Strike3 FraudBatchProcessor with wmmc for common rules,8m 47s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 8/30 - TestRail,BaaS_Fraud Service,,Automated Fail,8/30/2024 17:49
+178957795,EDD ACH Credit for All Eligible Categories,6m 24s,Milestone 166,GSS - Adhoc - WMMC - Milestone 166 - 8/30 - TestRail,GSS_Direct Deposit,,Automated Pass,8/30/2024 17:57
+,,,,,,,,
+TestId,Title,Elapsed,Milestone,Plan,Run,Section,Status,Tested On
+179021144,CancelACHTransfer-ACHPull-AccountIdentifierAndACHTransferMismatch,10w,Milestone 166,Legacy - Walmart - Release 183 - Regression - Adhoc,Legacy_WMT_ACH Service,,Automated Fail,9/3/2024 14:37
+179021443,Walmart Direct Deposit Threshold,6m 56s,Milestone 166,Legacy - Walmart - Release 183 - Regression - Adhoc,Legacy_MMF_WMT,,Automated Fail,9/3/2024 17:25
+179021550,AccountToVault - Debit posted and AutoReversal posted - ReconciledDeclined,5m 26s,Milestone 166,Legacy - Walmart - Release 183 - Regression - Adhoc,Legacy_FundTransferV3 Service,,Automated Pass,9/3/2024 15:15
+179021597,AccountClosure-E2E,1h 10m 49s,Milestone 166,Legacy - Walmart - Release 183 - Regression - Adhoc,BE_ACC User Journey_Legacy,,Automated Fail,9/3/2024 17:00
+179021624,Test MonthlyEnforceRestart,12m 5s,Milestone 166,Legacy - Walmart - Release 183 - Regression - Adhoc,BE_ACC User Journey_Legacy,,Automated Pass,9/3/2024 14:53
+179026881,ReturnCheckHandler-AfterFunding- 16-ActiveAccount,8m 41s,Milestone 166,Legacy - Walmart - Release 183 - Regression - Adhoc,Legacy_MRDC_CheckDepositProcessor Service,,Automated Fail,9/3/2024 17:27
+179026883,TC01-AvalableFundingDate-Within-5Days-ActiveAccount,7m 20s,Milestone 166,Legacy - Walmart - Release 183 - Regression - Adhoc,Legacy_MRDC_CheckDepositProcessor Service,,Automated Fail,9/3/2024 17:27
+179026860,TC04-LoadFile-Invalid-ConfirmationID,5m 26s,Milestone 166,Legacy - Walmart - Release 183 - Regression - Adhoc,Legacy_MRDC_CheckDepositProcessor Service,,Automated Pass,9/3/2024 17:18
+TestId,Title,Elapsed,Milestone,Plan,Run,Section,Status,Tested On
+179030208,EstatementProcessor - TransactionDisplayRule - Rewards Credit,6m 48s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 9/3,BaaS_EstatmentProcessor Service,,Automated Fail,9/4/2024 9:51
+179030204,EstatmentProcessor - PendingTransfersSection - MoneySentFromECash - Cancled,7m 16s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 9/3,BaaS_EstatmentProcessor Service,,Automated Fail,9/4/2024 9:42
+179030208,EstatementProcessor - TransactionDisplayRule - Rewards Credit,6m 41s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 9/3,BaaS_EstatmentProcessor Service,,Automated Fail,9/3/2024 20:01
+179030204,EstatmentProcessor - PendingTransfersSection - MoneySentFromECash - Cancled,6m 35s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 9/3,BaaS_EstatmentProcessor Service,,Automated Fail,9/3/2024 19:53
+179030250,GetExternalTransferByRefNum - TopUp - VisaDebit - AFT - HappyPath - FPAN,6m 2s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 9/3,BaaS_IFT Service,,Automated Pass,9/3/2024 20:13
+179030251,Transfer P2PExpress - VisaDebit - AFT - HappyPath - FPAN,5m 50s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 9/3,BaaS_IFT Service,,Automated Pass,9/3/2024 20:07
+179030249,Transfer - AFT - DifferentTransactionAmount,12m,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 9/3,BaaS_IFT Service,,Automated Pass,9/3/2024 20:01
+179030248,Transfer TopUp - VisaDebit - AFT - HappyPath - FPAN,5m 52s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 9/3,BaaS_IFT Service,,Automated Pass,9/3/2024 19:49
+,,,,,,,,
+179058468,DirectDeposit - ODTierDowngrade,5m 13s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 9/6,BaaS_OverdraftEligibilityProcessor Service,,Automated Fail,9/5/2024 9:08
+179058641,AccountClose - Close By CAM,8m 38s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 9/6,BaaS_Partner Service_ACC,,Automated Pass,9/5/2024 9:00
+179058622,TMM - DeliveryStatusMessage-SuppressCN,5m 13s,Milestone 166,BaaS - Adhoc - WMMC - Milestone 166 - 9/6,BaaS_Partner Service_ACC,,Automated Pass,9/5/2024 8:45
+TestId,Title,Elapsed,Milestone,Plan,Run,Section,Status,Tested On
+179483454,GetEligibilityWriteOffAccounts - SCC card linkage,6m 17s,Milestone 167,BaaS - AdHoc - Milestone 167,BaaS_CardAccountMaintenance Service,,Automated Pass,9/19/2024 10:46
+179484186,GetTransactions - PSTINT - BalanceAdjustmentTransaction,5m 14s,Milestone 167,BaaS - AdHoc - Milestone 167,BaaS_Partner_Service_TX,,Automated Fail,9/19/2024 11:17
+179484182,GetTransactions - GetListByLimit,5m 20s,Milestone 167,BaaS - AdHoc - Milestone 167,BaaS_Partner_Service_TX,,Automated Fail,9/19/2024 11:06
+179484180,GetTransactions - AllTypeOfTransactions,5m 21s,Milestone 167,BaaS - AdHoc - Milestone 167,BaaS_Partner_Service_TX,,Automated Fail,9/19/2024 11:00
+179484167,GetFeeTransactions - StandardCardReplacement-FeeCharged,5m 9s,Milestone 167,BaaS - AdHoc - Milestone 167,BaaS_Partner_Service_TX,,Automated Fail,9/19/2024 10:53
+179492070,AccountStatus - Normal to Others,5m 23s,Milestone 167,BaaS - AdHoc - Milestone 167,BaaS_OverdraftEligibilityProcessor Service,,Automated Fail,9/19/2024 13:47
+TestId,Title,Elapsed,Milestone,Plan,Run,Section,Status,Tested On
+179484590,ACHCategorization-WMMC ACH Credit for All Categories,5m 16s,Milestone 167,GSS - AdHoc - Milestone 167,GSS_Direct Deposit,,Automated Pass,9/19/2024 11:07
+TestId,Title,Elapsed,Milestone,Plan,Run,Section,Status,Tested On
+179515757,GetEligibilityWriteOffAccounts - there is posted transaction in past 15-month,9m 28s,Milestone 167,BaaS - AdHoc - Milestone 167 - 09/19,BaaS_CardAccountMaintenance Service,,Automated Pass,9/19/2024 23:34
+TestId,Title,Elapsed,Milestone,Plan,Run,Section,Status,Tested On
+TestId,Title,Elapsed,Milestone,Plan,Run,Section,Status,Tested On
+181401226,OD1TierAssigned-first mailed card activation date is  present-Part4,3w 2d 4h 57m 52s,Milestone 169,BaaS - AdHoc - Milestone 169 - 10/17,BaaS_OverdraftEligibilityProcessor Service,,Automated Fail,10/18/2024 10:07
+181401213,AccountBalance - ODTierNotSuspended - AccountBalance - LegderBalancePositive,3w 2d 4h 51m 41s,Milestone 169,BaaS - AdHoc - Milestone 169 - 10/17,BaaS_OverdraftEligibilityProcessor Service,,Automated Fail,10/18/2024 9:58
+181401226,OD1TierAssigned-first mailed card activation date is  present-Part4,3w 1d 1h 51m 10s,Milestone 169,BaaS - AdHoc - Milestone 169 - 10/17,BaaS_OverdraftEligibilityProcessor Service,,Automated Fail,10/17/2024 23:03
+181401475,GetEligibilityWriteOffAccounts - The sum of the saving vault and Primary account ledger balance is greater than 0,10m 29s,Milestone 169,BaaS - AdHoc - Milestone 169 - 10/17,BaaS_CardAccountMaintenance Service,,Automated Fail,10/18/2024 10:03
+181401475,GetEligibilityWriteOffAccounts - The sum of the saving vault and Primary account ledger balance is greater than 0,10m 26s,Milestone 169,BaaS - AdHoc - Milestone 169 - 10/17,BaaS_CardAccountMaintenance Service,,Automated Fail,10/17/2024 22:43

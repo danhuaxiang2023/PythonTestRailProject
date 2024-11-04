@@ -1,0 +1,400 @@
+
+<html>
+  <head>
+    <title>HTML Pandas Dataframe with CSS</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/table.css"/>
+     <!-- <style>
+        table, th, td{
+          border: 1px solid black; 
+          border-collapse: collapse;        
+
+        }
+     </style> -->
+  </head>
+  <body>
+  <table>
+      <thead>
+        <tr style="text-align: left;">
+          <th></th>
+          <th>Title</th>
+          <th>Run</th>
+          <th>Case Status</th>
+          <th>Defect</th>
+          <th>Assignee</th>
+          <th>Root Cause</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>0</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177593561">ContactVerification - SendCode - AchPull</a></td>
+          <td>BaaS_Partner ContactVerification Service</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>Sparta Zhang</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177593778">Interest Rate Tier</a></td>
+          <td>BaaS_Core Service</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>Sparta Zhang</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177593779">Interest Rate Tiers- All Products</a></td>
+          <td>BaaS_Core Service</td>
+          <td>Not Valid</td>
+          <td>NaN</td>
+          <td>Sparta Zhang</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177593778">Interest Rate Tier</a></td>
+          <td>BaaS_Core Service</td>
+          <td>Not Valid</td>
+          <td>NaN</td>
+          <td>Sparta Zhang</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177593779">Interest Rate Tiers- All Products</a></td>
+          <td>BaaS_Core Service</td>
+          <td>Failed</td>
+          <td>NaN</td>
+          <td>Sparta Zhang</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>5</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177593787">Accounts - Financial Data Account</a></td>
+          <td>BaaS_Core Service</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>Ping Hu</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>6</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177593818">GetAccountBinType - Happy Path</a></td>
+          <td>BaaS_Core Service</td>
+          <td>Not Valid</td>
+          <td>NaN</td>
+          <td>Cindy Song</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>7</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594082">GetInterestTiersByProgramCode - HappyPath</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>Sparta Zhang</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>8</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594082">GetInterestTiersByProgramCode - HappyPath</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Failed</td>
+          <td>NaN</td>
+          <td>Sparta Zhang</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>9</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594078">Enroll OD3 - Qualified Eligibility - ACI</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Blocked</td>
+          <td>NaN</td>
+          <td>Nick Xiong</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>10</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594077">Enroll OD2 - Qualified Eligibility - ACI</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Blocked</td>
+          <td>NaN</td>
+          <td>Nick Xiong</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>11</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594076">Enroll OD1 - Qualified Eligibility - ACI</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Blocked</td>
+          <td>ACI-1913</td>
+          <td>Nick Xiong</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>12</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594038">ActivateCard - ReportDamageOnConsolidatedCard</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>Ping Hu</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>13</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594133">Enrollments - IDV Fail due to fraudulent ID - OVR-A - CallFraudAPIToUpdate</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>David Li</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>14</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594130">Enrollments - IDVPassed - FraudObject-IpAddress</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>David Li</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>15</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594126">Enrollments - IDV Retry due to Image Upload Failure - DDAHH</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>David Li</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>16</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594054">ProvisioningAUTH - VisaCard-DDA</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>Harry Song</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>17</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594052">Transactions - VTS  NoUpdates</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>Harry Song</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>18</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594051">ProvisioningAUTH - VisaCard</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>Harry Song</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>19</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177593968">AccountStatusChange - WithODExisted - IDVPass - FromNonActiveToActive - ODNotification</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>Ping Hu</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>20</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177593967">AccountStatusChange -IDVPass - FromNonActiveToActive - ODNotification</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>Ping Hu</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>21</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594110">PaymentInstruments - Complete - IncompleteEnrollments</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>Sparta Zhang</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>22</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177593968">AccountStatusChange - WithODExisted - IDVPass - FromNonActiveToActive - ODNotification</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Blocked</td>
+          <td>GBOS-105249</td>
+          <td>Ping Hu</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>23</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177593967">AccountStatusChange -IDVPass - FromNonActiveToActive - ODNotification</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Blocked</td>
+          <td>GBOS-105249</td>
+          <td>Ping Hu</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>24</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594110">PaymentInstruments - Complete - IncompleteEnrollments</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Blocked</td>
+          <td>GBOS-105249</td>
+          <td>Sparta Zhang</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>25</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594097">UpdateUserNameUnencrypted - Invalid Prameters</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Not Valid</td>
+          <td>NaN</td>
+          <td>Ping Hu</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>26</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594133">Enrollments - IDV Fail due to fraudulent ID - OVR-A - CallFraudAPIToUpdate</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Blocked</td>
+          <td>GBOS-105249</td>
+          <td>David Li</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>27</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594126">Enrollments - IDV Retry due to Image Upload Failure - DDAHH</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Blocked</td>
+          <td>GBOS-105249</td>
+          <td>David Li</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>28</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594130">Enrollments - IDVPassed - FraudObject-IpAddress</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Blocked</td>
+          <td>GBOS-105249</td>
+          <td>David Li</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>29</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177594124">Enrollments-PhoneNumber-NonSMB-ActiveAcctsExceeded-BypassHeader</a></td>
+          <td>BaaS_Partner Service_ACC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>David Li</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>30</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177601829">NO Notify OD transaction from FP - PurchaseTransaction - DEL</a></td>
+          <td>BaaS_Partner_Service_TX</td>
+          <td>Blocked</td>
+          <td>ACI-1913</td>
+          <td>NaN</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>31</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177601830">No OD transaction notification from FP - PurchaseTransactions Without Negative Balance</a></td>
+          <td>BaaS_Partner_Service_TX</td>
+          <td>Blocked</td>
+          <td>ACI-1913</td>
+          <td>NaN</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>32</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177602216">ACHTransferAssessment - SubsequentTransferMonthly</a></td>
+          <td>BaaSGateway Service_WMMC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>NaN</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>33</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177602216">ACHTransferAssessment - SubsequentTransferMonthly</a></td>
+          <td>BaaSGateway Service_WMMC</td>
+          <td>Blocked</td>
+          <td>NaN</td>
+          <td>NaN</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>34</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177602113">OdFeature - OptOut - HappyPath</a></td>
+          <td>BaaSGateway Service_WMMC</td>
+          <td>Blocked</td>
+          <td>ACI-1913</td>
+          <td>NaN</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>35</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177602113">OdFeature - OptOut - HappyPath</a></td>
+          <td>BaaSGateway Service_WMMC</td>
+          <td>Blocked</td>
+          <td>ACI-1913</td>
+          <td>NaN</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>36</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177602115">OdFeature - Eligibility - ODOptOut - After35days</a></td>
+          <td>BaaSGateway Service_WMMC</td>
+          <td>Blocked</td>
+          <td>ACI-1913</td>
+          <td>NaN</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>37</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177602117">OdFeature - Eligibility - Tier0 - nonActiveAccountStatus - AlreadyEnrolled</a></td>
+          <td>BaaSGateway Service_WMMC</td>
+          <td>Blocked</td>
+          <td>ACI-1913</td>
+          <td>NaN</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>38</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177602333">GetAllDefaultSettings - DB Check</a></td>
+          <td>BaaSGateway Service_WMMC</td>
+          <td>Passed</td>
+          <td>NaN</td>
+          <td>NaN</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>39</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177602306">GetFeaturesLibraryEligibility - Overdraft - HappyPath</a></td>
+          <td>BaaSGateway Service_WMMC</td>
+          <td>Blocked</td>
+          <td>ACI-1913</td>
+          <td>NaN</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>40</th>
+          <td><a href="https://gdcqatestrail01/testrail/index.php?/tests/view/177602118">OdFeature - Eligibility - Suspend- true</a></td>
+          <td>BaaSGateway Service_WMMC</td>
+          <td>Blocked</td>
+          <td>ACI-1913</td>
+          <td>NaN</td>
+          <td>NaN</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>.

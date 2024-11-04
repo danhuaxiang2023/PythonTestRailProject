@@ -1,0 +1,8 @@
+Title,Run,Case Status,Assignee,Bug/Root Cause
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179604847">Stash swipe reload with storeid has leading zeros</a>,GSS_RetailWalmart Service,Passed,None,
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179604846">Stash swipe reload Happy path with 1000 dollars</a>,GSS_RetailWalmart Service,Passed,None,
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179604845">Stash swipe reload Happy path-Check</a>,GSS_RetailWalmart Service,Passed,None,
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179604843">Return Stash swipe reload within funding delay  Happy path</a>,GSS_RetailWalmart Service,Passed,None,
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179604842">Return Stash swipe reload after funding  Happy path</a>,GSS_RetailWalmart Service,Passed,None,
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179604844">Stash swipe reload Happy path</a>,GSS_RetailWalmart Service,Passed,None,
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179604852">Void Stash swipe reload Happy path</a>,GSS_RetailWalmart Service,Passed,None,

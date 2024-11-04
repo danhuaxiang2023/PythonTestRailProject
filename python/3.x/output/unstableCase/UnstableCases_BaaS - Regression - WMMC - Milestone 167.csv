@@ -1,0 +1,7 @@
+Title,Run,Case Status,Assignee,Bug/Root Cause
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179605124">GetEligibilityWriteOffAccounts - there is posted transaction in past 15-month</a>,BaaS_CardAccountMaintenance Service,Passed,None,
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179605126">WMMC - CBR NotEligible - ExcludedMCCs</a>,BaaS_PostedCashBackRewardProcessor Service,Blocked,Harry Song,GBOS-110841
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179605147">AccountLimit Max-Active-WMMC-email</a>,BaaS_Fraud Service,Passed,None,
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179605336">Reward File Processing - Various Account Status</a>,BaaS_Partner Service_ACC,Blocked,None,BUX-60684
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179654336">OdFeature - Eligibility - ODOptOut - After35days</a>,BaaSGateway Service_WMMC,Blocked,Eric Gu,
+<a href="https://gdcqatestrail01/testrail/index.php?/tests/view/179654334">OdFeature - OptOut - HappyPath</a>,BaaSGateway Service_WMMC,Blocked,Eric Gu,
