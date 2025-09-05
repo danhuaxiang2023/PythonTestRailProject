@@ -83,13 +83,13 @@ def getLongRunningTest(projectId, planName, mileStone):
 def main():
     # ProjectId: ACC: 96, TailFin: 108
     projectId = 108
-    mileStone = 'Milestone 169'
+    mileStone = 'Milestone 170'
     legacyMileStone = 'Release 184'
     outputFile = f'./python/3.x/output/longRunTest_AdHoc.csv'
 
     # 3.x\output\longRunTest_AdHoc.csv
     testPlans = [
-        'BaaS - AdHoc - Milestone 169 - 10/17'
+        'BaaS - Adhoc - WMMC - Milestone 170 - 11/4 - SecondRound'
         # 'GSS - AdHoc - Milestone 167'      
         # 'BaaS - Adhoc - WMMC - Milestone 166 - 8/30',
         # 'GSS - Adhoc - WMMC - Milestone 166 - 8/30'

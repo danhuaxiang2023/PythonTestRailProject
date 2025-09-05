@@ -55,3 +55,14 @@ TestId,Title,Elapsed,Milestone,Plan,Run,Section,Status,Tested On
 181401226,OD1TierAssigned-first mailed card activation date is  present-Part4,3w 1d 1h 51m 10s,Milestone 169,BaaS - AdHoc - Milestone 169 - 10/17,BaaS_OverdraftEligibilityProcessor Service,,Automated Fail,10/17/2024 23:03
 181401475,GetEligibilityWriteOffAccounts - The sum of the saving vault and Primary account ledger balance is greater than 0,10m 29s,Milestone 169,BaaS - AdHoc - Milestone 169 - 10/17,BaaS_CardAccountMaintenance Service,,Automated Fail,10/18/2024 10:03
 181401475,GetEligibilityWriteOffAccounts - The sum of the saving vault and Primary account ledger balance is greater than 0,10m 26s,Milestone 169,BaaS - AdHoc - Milestone 169 - 10/17,BaaS_CardAccountMaintenance Service,,Automated Fail,10/17/2024 22:43
+TestId,Title,Elapsed,Milestone,Plan,Run,Section,Status,Tested On
+182221483,FeeRule - Partial Fee,10m 32s,Milestone 170,BaaS - Adhoc - WMMC - Milestone 170 - 11/4 - SecondRound,BaaS_MMF,,Automated Fail,2024-11-04 19:45:17
+182221560,OD1TierAssigned-first mailed card activation date is  present,12m 44s,Milestone 170,BaaS - Adhoc - WMMC - Milestone 170 - 11/4 - SecondRound,BaaS_OverdraftEligibilityProcessor Service,,Automated Fail,2024-11-04 20:36:34
+182221644,InterestRefactor - SemiYear Interest - CalendarDate - NotTouchCapLimit,5m 45s,Milestone 170,BaaS - Adhoc - WMMC - Milestone 170 - 11/4 - SecondRound,BaaS_Interest,,Automated Fail,2024-11-05 17:09:52
+182221649,InterestRefactor - Yearly Interest - Rerun Batch Import Complete,5m 6s,Milestone 170,BaaS - Adhoc - WMMC - Milestone 170 - 11/4 - SecondRound,BaaS_Interest,,Automated Pass,2024-11-05 14:37:39
+182221640,InterestRefactor - Quarterly Interest - InterestSavingDate - CapLimit,5m 26s,Milestone 170,BaaS - Adhoc - WMMC - Milestone 170 - 11/4 - SecondRound,BaaS_Interest,,Automated Fail,2024-11-05 10:52:06
+182221679,EstatementProcessor - Offline - data validation,5m 4s,Milestone 170,BaaS - Adhoc - WMMC - Milestone 170 - 11/4 - SecondRound,BaaS_EstatmentProcessor Service,,Automated Fail,2024-11-04 19:45:23
+182222042,Handback Processor - Multiple Accounts - Different Status,5m 6s,Milestone 170,BaaS - Adhoc - WMMC - Milestone 170 - 11/4 - SecondRound,BaaS_Partner Service_ACC,,Automated Fail,2024-11-04 21:20:28
+182225042,CreateLoginAccessToken - LegacyMigration Flag Enabled,6m 16s,Milestone 170,BaaS - Adhoc - WMMC - Milestone 170 - 11/4 - SecondRound,BaaSGateway Service_WMMC,,Automated Pass,2024-11-05 17:46:40
+182224690,CreateLonginAccessTokenWithLoggedInToken - UntrustedDevice - HappyPath,6m 27s,Milestone 170,BaaS - Adhoc - WMMC - Milestone 170 - 11/4 - SecondRound,BaaSGateway Service_WMMC,,Automated Fail,2024-11-05 15:40:02
+182225038,ResetPassword - HappyPath - for legacy accounts,6m 27s,Milestone 170,BaaS - Adhoc - WMMC - Milestone 170 - 11/4 - SecondRound,BaaSGateway Service_WMMC,,Automated Pass,2024-11-05 14:50:00
